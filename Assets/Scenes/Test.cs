@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 using static Test;
 
+// Remember to run this code to generate serialized data.
+// dotnet mpc -i Assembly-CSharp.csproj -o Assets/Generated/MessagePackGenerated.cs
+
 public class Test : MonoBehaviour
 {
     public UserData _userData;
